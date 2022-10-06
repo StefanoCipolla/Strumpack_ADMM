@@ -1,0 +1,54 @@
+# usage: ./SVM_ADMM file d kernel(Gauss, Laplace) mode(validation, test)
+
+# file                = ../data/a8a
+# data dimension      = 122
+# kernel type         = Gauss
+# validation/test     = test
+# ADMM eta           = 1.5
+# ADMM MaxIt           = 15
+
+# Reading data ...
+# training dataset = 22696 x 122
+# testing dataset  = 9865 x 122
+
+# kernel h            = 0.1
+# p                   = 1
+# HSS Options:
+#   --hss_rel_tol real_t (default 0.01)
+#   --hss_abs_tol real_t (default 1e-08)
+#   --hss_leaf_size int (default 512)
+#   --hss_d0 int (default 128)
+#   --hss_dd int (default 64)
+#   --hss_p int (default 10)
+#   --hss_max_rank int (default 50000)
+#   --hss_random_distribution normal|uniform (default normal(0,1))
+#   --hss_random_engine linear|mersenne (default minstd_rand)
+#   --hss_compression_algorithm original|stable|hard_restart (default stable)
+#   --hss_clustering_algorithm natural|2means|kdtree|pca|cobble (default 2means)
+#   --hss_user_defined_random (default 0)
+#   --hss_approximate_neighbors int (default 64)
+#   --hss_ann_iterations int (default 5)
+#   --hss_enable_sync (default 0)
+#   --hss_disable_sync (default 1)
+#   --hss_log_ranks (default 0)
+#   --hss_verbose or -v (default 1)
+#   --hss_quiet or -q (default 0)
+#   --help or -h
+
+# clustering (2means) time = 0.69512
+# ANN search quality = 0.06875 after 5 iterations
+# k-ANN=64, approximate neighbor search time = 4.7484
+# HSS compression time = 15.4564
+# created HSS matrix of dimension 22696 x 22696 with 10 levels
+# compression succeeded!
+# rank(H) = 0
+# HSS memory(H) = 65.713 MB 
+
+# factorization start
+# factorization time = 1.86812
+# solution start...
+# solve time = 0.0161358
+# C parameter for SVM = 0.1
+
+# ADMM Procedure 
+# Training Time = 0.224647
