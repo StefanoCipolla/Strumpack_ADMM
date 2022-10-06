@@ -1,5 +1,8 @@
-/*
- * STRUMPACK -- SVM, Copyright (c) October 2022, 
+/* S. Cipolla, J. Gondzio, Training very large scale nonlinear SVMs 
+ * using Alternating Direction Method of Multipliers coupled 
+ * with the Hierarchically Semi-Separable kernel approximations. 
+ * EURO Journal Computational Optimization
+ * Copyright (c) October 2022, 
  * Developers: S.Cipolla, J. Gondzio
  *             (The University of Edinburgh).
  *
