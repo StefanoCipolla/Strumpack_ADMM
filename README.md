@@ -8,7 +8,7 @@ Requires STRUMPACK
 
 Before running ./Matlab/run_test.m use the following lines to compile the code
 
->mkdir build
-> cd build
-> cmake ../
-> make
+mkdir build
+cd build
+cmake ../
+make
